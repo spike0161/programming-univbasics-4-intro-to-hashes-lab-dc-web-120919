@@ -43,6 +43,6 @@ return updated_hash
 
 else
   updated_hash[key] = 1
-
+  end
 end
 
