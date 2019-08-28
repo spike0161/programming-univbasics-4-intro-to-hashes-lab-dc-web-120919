@@ -32,8 +32,7 @@ def update_counting_hash(hash, key)
 updated_hash = Hash.new
 
   
-  
-  # if the provided key is not present in the hash, add it and assign it to the value of 1
+   # if the provided key is not present in the hash, add it and assign it to the value of 1
   
   if updated_hash[key]
     updated_hash[key] += 1
@@ -43,7 +42,9 @@ updated_hash = Hash.new
 
 else
   updated_hash[key] = 1
+  
   end
   return updated_hash
+
 end
 
