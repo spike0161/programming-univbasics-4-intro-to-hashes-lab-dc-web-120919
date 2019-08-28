@@ -44,6 +44,6 @@ updated_hash = Hash.new
 else
   updated_hash[key] = 1
   end
-  
+  return updated_hash
 end
 
